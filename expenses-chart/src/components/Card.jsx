@@ -36,7 +36,7 @@ const Card = (props) => {
 
       <div className='flex flex-col bg-[var(--Very-pale-orange)] p-8 rounded-2xl min-h-[450px]'>
         <h1 className='font-bold text-3xl'>Spending - Last 7 days</h1>
-        <div className='flex gap-5 items-end w-full h-full'>
+        <div className='flex gap-3 md:gap-5 items-end w-full h-full'>
 
           <div className='h-full w-full flex flex-col items-center justify-end'>
             <div className='bg-[var(--Soft-red)] w-full h-[20%] rounded-md cursor-pointer hover:opacity-70 relative' id='0' onMouseLeave={HideMoney}  onMouseOver={(e) => {showMoneySpent(e.target.id)}}>
